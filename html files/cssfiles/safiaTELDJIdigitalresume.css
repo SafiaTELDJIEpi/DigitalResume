@@ -22,7 +22,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    display: flex;
 }
 #dlgbrd {
     border-width:4px;
@@ -39,5 +38,4 @@ body {
     bottom : 0;
     right : 0;
     position: absolute;
-    display: flex;
 }
