@@ -90,3 +90,18 @@ ul {
 a {
     color: aliceblue;
 }
+#windowabout {
+    border-width:4px;
+    border-style:inset;
+    border-color: rgba(252, 247, 242, 0.534);
+    background: rgb(22, 54, 199);
+    width: 20%;
+    height: 35%;
+    padding: 10px;
+    top : 200px;
+    left : 450px;
+    position: absolute;
+    text-align: justify;
+    opacity: 0.79;
+    display: none;
+}

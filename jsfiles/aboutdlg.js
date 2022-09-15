@@ -12,5 +12,9 @@ document.getElementById("dlgbutton").onclick = function() {
         else if (currentdlg == "dlg3") {
                         currentdlg = "dlg4" ;
         }
+        else if (currentdlg == "dlg4") {
+                        currentdlg = "dlg5"
+                        document.getElementById('windowabout').style.display = "block";
+        }
         document.getElementById("dlgtext").innerHTML = dlgs[currentdlg] ;
 }  
