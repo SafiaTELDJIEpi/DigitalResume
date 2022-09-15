@@ -46,9 +46,22 @@ body {
     border-color: rgb(81, 53, 126);
     margin: auto;
     width: 25%;
-    height: 25%;
+    height: 30%;
     padding: 10px;
     top : 0;
     left : 0;
     position: absolute;
+    background-image: url(https://i.etsystatic.com/15381260/r/il/831617/3866359645/il_340x270.3866359645_oi0i.jpg);
+    background-size: cover;
 }
+#dlgbutton {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(241, 241, 238);
+    height: 0; 
+    margin: auto;
+    position: absolute;
+    bottom:0;
+    right:0;
+    width: 0; 
+  }
