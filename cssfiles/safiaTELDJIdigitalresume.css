@@ -52,7 +52,7 @@ body {
     top : 0;
     left : 0;
     position: absolute;
-    background-image: url(https://64.media.tumblr.com/2e4940eee3f51d948edc0036c7a49cd2/baf36e1316936378-5b/s1280x1920/23d2220d5106171db8fb48ecc32093cb454cea21.jpg);
+    background-image: url(https://i.etsystatic.com/15381260/r/il/831617/3866359645/il_340x270.3866359645_oi0i.jpg);
     background-size: cover;
 }
 #dlgbutton {
@@ -83,4 +83,8 @@ body {
 ul {
     color: aliceblue;
     font-family: Verdana;
+}
+
+a {
+    color: aliceblue;
 }
