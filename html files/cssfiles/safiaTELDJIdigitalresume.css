@@ -31,11 +31,24 @@ body {
     border-color:rgba(252, 247, 242, 0.534);
     margin: auto;
     width: 50%;
+    height: 10%;
     padding: 10px;
     text-align: center;
     background: rgb(22, 54, 199);
     font-family: Arial;
     bottom : 0;
     right : 0;
+    position: absolute;
+}
+#character {
+    border-width:4px;
+    border-style:inset;
+    border-color: rgb(81, 53, 126);
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+    top : 0;
+    left : 0;
     position: absolute;
 }
