@@ -4,5 +4,5 @@ var dlgs = {
     "dlg3" : "I'm aspiring to become a (checkcheck) developper in (check)" ,
     "dlg4" : "At the beginning, it was just an interest, a hobby.",
     "dlg5" : "But then I got so interested that I wanted to learn more and become a full-time developper. ",
-    "dlg6" : "So, here a few informations about me ! Feel free to take a look at it, I don't mind.",
+    "dlg6" : "So, here you can find a few informations about me ! Feel free to take a look at it, I don't mind.",
  }; 
