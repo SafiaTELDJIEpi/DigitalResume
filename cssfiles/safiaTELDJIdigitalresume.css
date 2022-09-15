@@ -39,6 +39,7 @@ body {
     bottom : 0;
     right : 0;
     position: absolute;
+    color: aliceblue;
 }
 #character {
     border-width:4px;
@@ -68,12 +69,18 @@ body {
 #menu { 
     border-width:4px;
     border-style:inset;
-    border-color: rgb(22, 54, 199);
+    border-color: rgba(252, 247, 242, 0.534);
+    background: rgb(22, 54, 199);
     margin: auto;
-    width: 15%;
-    height: 25%;
+    width: 13%;
+    height: 26%;
     padding: 10px;
     top : 350px;
     left : 0;
     position: absolute;
+    text-align: justify;
+}
+ul {
+    color: aliceblue;
+    font-family: Verdana;
 }
