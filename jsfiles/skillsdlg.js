@@ -1,4 +1,5 @@
 var currentdlg = "dlg1";
+document.getElementById("character").style.backgroundImage = "url('https://i.pinimg.com/originals/69/b6/17/69b617e69929200e9392a53950d6a9c3.jpg')";
 document.getElementById("dlgtext").innerHTML = dlgs[currentdlg] ;
 
 document.getElementById("dlgbutton").onclick = function() {

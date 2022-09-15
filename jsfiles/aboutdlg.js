@@ -1,4 +1,5 @@
 var currentdlg = "dlg1";
+document.getElementById("character").style.backgroundImage = "url('https://cf.shopee.ph/file/c22b3271c59a8e150c3590816796d61a')" ;
 document.getElementById("dlgtext").innerHTML = dlgs[currentdlg] ;
 
 document.getElementById("dlgbutton").onclick = function() {
