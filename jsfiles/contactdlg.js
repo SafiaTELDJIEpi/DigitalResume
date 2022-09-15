@@ -5,6 +5,7 @@ document.getElementById("dlgtext").innerHTML = dlgs[currentdlg] ;
 document.getElementById("dlgbutton").onclick = function() {
         if(currentdlg == "dlg1" ) {
                 currentdlg = "dlg2" ;
+                document.getElementById("windowcontact").style.display = "block";
         }
         else if (currentdlg == "dlg2") {
                        currentdlg = "dlg3" ;

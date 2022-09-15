@@ -105,3 +105,18 @@ a {
     opacity: 0.79;
     display: none;
 }
+#windowcontact {
+    border-width:4px;
+    border-style:inset;
+    border-color: rgba(252, 247, 242, 0.534);
+    background: rgb(22, 54, 199);
+    width: 30%;
+    height: 15%;
+    padding: 10px;
+    top : 200px;
+    left : 450px;
+    position: absolute;
+    text-align: left;
+    opacity: 0.79;
+    display: none;
+}
