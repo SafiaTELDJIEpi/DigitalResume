@@ -18,19 +18,7 @@ document.getElementById("dlgbutton").onclick = function() {
                         currentdlg = "dlg6"
         }
         else if (currentdlg == "dlg6") {
-                        currentdlg = "dlg7"
-        }
-        else if (currentdlg == "dlg7") {
-                        currentdlg = "dlg8";
-                        document.getElementById("pseudouser").style.display = "block";
-                        document.getElementById("imputuser").value = null
-        }
-        else if (currentdlg == "dlg8" && document.getElementById("imputuser").value) {
-                document.getElementById("pseudouser").style.display = "none";
-                var pseudo = document.getElementById("imputuser").value ;
-                        currentdlg = "dlg9" ;
-                        dlgs["dlg9"] = dlgs["dlg9"] + pseudo + '."' ;
-                        
+                        currentdlg = "dlg7"     
         }
         document.getElementById("dlgtext").innerHTML = dlgs[currentdlg] ;
 }  
