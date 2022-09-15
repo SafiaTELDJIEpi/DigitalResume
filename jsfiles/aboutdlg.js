@@ -14,7 +14,11 @@ document.getElementById("dlgbutton").onclick = function() {
         }
         else if (currentdlg == "dlg4") {
                         currentdlg = "dlg5"
+        }
+        else if (currentdlg == "dlg5") {
+                        currentdlg ="dlg6";
                         document.getElementById('windowabout').style.display = "block";
+                        document.getElementById('sword').style.display = "block";
         }
         document.getElementById("dlgtext").innerHTML = dlgs[currentdlg] ;
 }  
