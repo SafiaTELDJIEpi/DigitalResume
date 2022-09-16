@@ -1,7 +1,7 @@
 @media screen 
-/* for laptops*/
+/* for tablets*/
   and (min-width: 768px)
-  and (max-width:1064px) { 
+  and (max-width:1024px) { 
     body {
         background-color: rgb(81, 53, 126);
     }
@@ -16,10 +16,10 @@
         justify-content: center;
         align-items: center;
         border-color:black;
-        margin: 45px;
+        margin: 30px;
         width: 800px;
-        height : 490px;
-        padding: 80px;
+        height : 1100px;
+        padding: 40px;
         text-align: center;
         background: rgb(255, 255, 255);
         background-image: url(https://supportivy.com/wp-content/uploads/2020/08/pixel-art-landscape-Idees-designs-photo-1140x570.png);
@@ -39,6 +39,7 @@
         text-align: center;
         background: rgb(22, 54, 199);
         font-family: Verdana;
+        font-size: larger;
         bottom : 0;
         right : 0;
         position: absolute;
@@ -50,7 +51,7 @@
         border-style:inset;
         border-color: rgb(81, 53, 126);
         margin: auto;
-        width: 20%;
+        width: 26%;
         height: 30%;
         padding: 10px;
         top : 0;
@@ -58,6 +59,7 @@
         position: absolute;
         background-image: url(https://pbs.twimg.com/media/EuCTjBkVIAE2o3j.jpg);
         background-size: cover;
+        background-position: center;
     }
     #dlgbutton {
         border-left: 15px solid transparent;
@@ -76,19 +78,21 @@
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
         width: 13%;
-        height: 20%;
+        height: 15%;
         padding: 10px;
-        top : 350px;
+        top : 550px;
         left : 0;
         position: absolute;
         text-align: justify;
         opacity: 0.79;
+        margin-top: 2px;
     }
     ul {
         color: aliceblue;
         font-family: Verdana;
-        margin-top: 5px;
-
+        margin-top: 0px;
+        font-size: 22px;
+        padding: 0px;
     }
 
     a {
@@ -100,7 +104,7 @@
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
         width: 30%;
-        height: 35%;
+        height: 24%;
         padding: 10px;
         top : 200px;
         left : 450px;
@@ -115,7 +119,7 @@
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
         width: 30%;
-        height: 15%;
+        height: 12%;
         padding: 10px;
         top : 200px;
         left : 450px;
@@ -138,6 +142,7 @@
         text-align: start;
         opacity: 0.79;
         display: none;
+        line-height: 2;
     }
     #windowotherskills {
         border-width:4px;
@@ -145,7 +150,7 @@
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
         width: 30%;
-        height: 30%;
+        height: 26%;
         padding: 10px;
         top : 200px;
         left : 450px;
@@ -160,9 +165,9 @@
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
         width: 30%;
-        height: 48%;
+        height: 43%;
         padding: 10px;
-        top : 180px;
+        top : 140px;
         left : 450px;
         position: absolute;
         text-align: start;
@@ -175,7 +180,7 @@
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
         width: 30%;
-        height: 25%;
+        height: 23%;
         padding: 10px;
         top : 180px;
         left : 450px;
@@ -190,7 +195,7 @@
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
         width: 30%;
-        height: 25%;
+        height: 35%;
         padding: 10px;
         top : 180px;
         left : 450px;
@@ -198,12 +203,13 @@
         text-align: start;
         opacity: 0.79;
         display: none;
+        line-height: 2;
     }
   }
   @media screen 
-  /* for tablets*/
-  and (min-width: 481px)
-  and (max-width: 768px) { 
+  /* for small laptops*/
+  and (min-width: 1025px)
+  and (max-width: 1280px) { 
     body {
         background-color: rgb(81, 53, 126);
     }
@@ -344,6 +350,7 @@
         text-align: left;
         opacity: 0.79;
         display: none;
+        line-height: 2;
     }
     #windowotherskills {
         border-width:4px;
@@ -396,7 +403,7 @@
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
         width: 50%;
-        height: 25%;
+        height: 35%;
         padding: 10px;
         top : 35px;
         right : 2px;
@@ -404,12 +411,426 @@
         text-align: left;
         opacity: 0.79;
         display: none;
+        line-height: 2;
     }
   }
   @media screen 
-  /*for phones*/
+  /*for small phones*/
   and (min-width: 320px)
-  and (max-width: 480px){ 
+  and (max-width: 520px){ 
+    body {
+        background-color: rgb(81, 53, 126);
+    }
+    #game {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #playscreen {
+        border-width:4px;
+        border-style:inset;
+        justify-content: center;
+        align-items: center;
+        border-color:black;
+        margin: 15px;
+        width: 500px;
+        height : 400px;
+        padding: 80px;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        background-image: url(https://supportivy.com/wp-content/uploads/2020/08/pixel-art-landscape-Idees-designs-photo-1140x570.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #dlgbrd {
+        border-width:4px;
+        border-style:inset;
+        justify-content: center;
+        align-items: center;
+        border-color:rgba(252, 247, 242, 0.534);
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+        background: rgb(22, 54, 199);
+        font-family: Verdana;
+        font-size: 12px;
+        bottom : 0;
+        right : 0;
+        position: absolute;
+        color: aliceblue;
+        opacity: 0.79;
+    }
+    #character {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgb(81, 53, 126);
+        margin: auto;
+        width: 27%;
+        height: 25%;
+        padding: 10px;
+        top : 0;
+        left : 0;
+        position: absolute;
+        background-image: url(https://pbs.twimg.com/media/EuCTjBkVIAE2o3j.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    #dlgbutton {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid rgb(241, 241, 238);
+        height: 0; 
+        margin: auto;
+        position: absolute;
+        bottom:0;
+        right:0;
+        width: 0; 
+    }
+    #menu { 
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 22%;
+        height: 20%;
+        padding: 10px;
+        top : 180px;
+        left : 0;
+        position: absolute;
+        text-align: justify;
+        opacity: 0.79;
+    }
+    ul {
+        color: aliceblue;
+        font-family: Verdana;
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    a {
+        color: aliceblue;
+    }
+    #windowabout {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 50%;
+        height: 35%;
+        padding: 10px;
+        top : 15px;
+        right : 2px;
+        position: absolute;
+        text-align: left;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowcontact {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 25%;
+        padding: 10px;
+        top : 30px;
+        right : 2px;
+        position: absolute;
+        text-align: left;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowprogskills {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 50%;
+        height: 20%;
+        padding: 10px;
+        top : 30px;
+        right : 2px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+        line-height: 2;
+    }
+    #windowotherskills {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        top : 30px;
+        right : 2px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windoweducationxp {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 50%;
+        height: 72%;
+        padding: 10px;
+        top : 0px;
+        right : 0px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowworkingxp {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 65%;
+        padding: 10px;
+        top : 30px;
+        right : 0px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowhobbies {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 48%;
+        padding: 10px;
+        top : 30px;
+        right : 10px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+        line-height: 2;
+    }
+  }
+  @media screen 
+/* for big screens/laptops*/
+  and (min-width: 1281px) { 
+    body {
+        background-color: rgb(81, 53, 126);
+    }
+    #game {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #playscreen {
+        border-width:4px;
+        border-style:inset;
+        justify-content: center;
+        align-items: center;
+        border-color:black;
+        margin: 45px;
+        width: 800px;
+        height : 490px;
+        padding: 40px;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        background-image: url(https://supportivy.com/wp-content/uploads/2020/08/pixel-art-landscape-Idees-designs-photo-1140x570.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #dlgbrd {
+        border-width:4px;
+        border-style:inset;
+        justify-content: center;
+        align-items: center;
+        border-color:rgba(252, 247, 242, 0.534);
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+        background: rgb(22, 54, 199);
+        font-family: Verdana;
+        bottom : 0;
+        right : 0;
+        position: absolute;
+        color: aliceblue;
+        opacity: 0.79;
+    }
+    #character {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgb(81, 53, 126);
+        margin: auto;
+        width: 20%;
+        height: 30%;
+        padding: 10px;
+        top : 0;
+        left : 0;
+        position: absolute;
+        background-image: url(https://pbs.twimg.com/media/EuCTjBkVIAE2o3j.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #dlgbutton {
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid rgb(241, 241, 238);
+        height: 0; 
+        margin: auto;
+        position: absolute;
+        bottom:0;
+        right:0;
+        width: 0; 
+    }
+    #menu { 
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 13%;
+        height: 22%;
+        padding: 10px;
+        top : 350px;
+        left : 0;
+        font-size: 15px;
+        position: absolute;
+        text-align: justify;
+        opacity: 0.79;
+    }
+    ul {
+        color: aliceblue;
+        font-family: Verdana;
+        margin-top: 5px;
+
+    }
+
+    a {
+        color: aliceblue;
+    }
+    #windowabout {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 35%;
+        padding: 10px;
+        top : 200px;
+        left : 450px;
+        position: absolute;
+        text-align: left;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowcontact {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 20%;
+        padding: 10px;
+        top : 200px;
+        left : 450px;
+        position: absolute;
+        text-align: left;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowprogskills {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 20%;
+        padding: 10px;
+        top : 200px;
+        left : 450px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+        line-height: 2;
+    }
+    #windowotherskills {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 35%;
+        padding: 10px;
+        top : 200px;
+        left : 450px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windoweducationxp {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 55%;
+        padding: 10px;
+        top : 160px;
+        left : 450px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowworkingxp {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 30%;
+        padding: 10px;
+        top : 180px;
+        left : 450px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowhobbies {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 45%;
+        padding: 10px;
+        top : 180px;
+        left : 450px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+        line-height: 2;
+    }
+  }
+  @media (min-width: 521px) 
+  /*for most smartphones nowadays*/
+  and (max-width: 767px) {
     body {
         background-color: rgb(81, 53, 126);
     }
@@ -551,6 +972,7 @@
         text-align: start;
         opacity: 0.79;
         display: none;
+        line-height: 2;
     }
     #windowotherskills {
         border-width:4px;
@@ -611,206 +1033,6 @@
         text-align: start;
         opacity: 0.79;
         display: none;
-    }
-  }
-  @media screen
-  /*for big screens/laptops*/ 
-  and (min-width:1064px) { 
-    body {
-        background-color: rgb(81, 53, 126);
-    }
-    #game {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    #playscreen {
-        border-width:4px;
-        border-style:inset;
-        justify-content: center;
-        align-items: center;
-        border-color:black;
-        margin: 45px;
-        width: 800px;
-        height : 490px;
-        padding: 80px;
-        text-align: center;
-        background: rgb(255, 255, 255);
-        background-image: url(https://supportivy.com/wp-content/uploads/2020/08/pixel-art-landscape-Idees-designs-photo-1140x570.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-    }
-    #dlgbrd {
-        border-width:4px;
-        border-style:inset;
-        justify-content: center;
-        align-items: center;
-        border-color:rgba(252, 247, 242, 0.534);
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-        text-align: center;
-        background: rgb(22, 54, 199);
-        font-family: Verdana;
-        bottom : 0;
-        right : 0;
-        position: absolute;
-        color: aliceblue;
-        opacity: 0.79;
-    }
-    #character {
-        border-width:4px;
-        border-style:inset;
-        border-color: rgb(81, 53, 126);
-        margin: auto;
-        width: 20%;
-        height: 30%;
-        padding: 10px;
-        top : 0;
-        left : 0;
-        position: absolute;
-        background-image: url(https://pbs.twimg.com/media/EuCTjBkVIAE2o3j.jpg);
-        background-size: cover;
-    }
-    #dlgbutton {
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        border-top: 15px solid rgb(241, 241, 238);
-        height: 0; 
-        margin: auto;
-        position: absolute;
-        bottom:0;
-        right:0;
-        width: 0; 
-    }
-    #menu { 
-        border-width:4px;
-        border-style:inset;
-        border-color: rgba(252, 247, 242, 0.534);
-        background: rgb(22, 54, 199);
-        width: 13%;
-        height: 20%;
-        padding: 10px;
-        top : 350px;
-        left : 0;
-        position: absolute;
-        text-align: justify;
-        opacity: 0.79;
-    }
-    ul {
-        color: aliceblue;
-        font-family: Verdana;
-        margin-top: 5px;
-
-    }
-
-    a {
-        color: aliceblue;
-    }
-    #windowabout {
-        border-width:4px;
-        border-style:inset;
-        border-color: rgba(252, 247, 242, 0.534);
-        background: rgb(22, 54, 199);
-        width: 30%;
-        height: 35%;
-        padding: 10px;
-        top : 200px;
-        left : 450px;
-        position: absolute;
-        text-align: left;
-        opacity: 0.79;
-        display: none;
-    }
-    #windowcontact {
-        border-width:4px;
-        border-style:inset;
-        border-color: rgba(252, 247, 242, 0.534);
-        background: rgb(22, 54, 199);
-        width: 30%;
-        height: 15%;
-        padding: 10px;
-        top : 200px;
-        left : 450px;
-        position: absolute;
-        text-align: left;
-        opacity: 0.79;
-        display: none;
-    }
-    #windowprogskills {
-        border-width:4px;
-        border-style:inset;
-        border-color: rgba(252, 247, 242, 0.534);
-        background: rgb(22, 54, 199);
-        width: 30%;
-        height: 15%;
-        padding: 10px;
-        top : 200px;
-        left : 450px;
-        position: absolute;
-        text-align: start;
-        opacity: 0.79;
-        display: none;
-    }
-    #windowotherskills {
-        border-width:4px;
-        border-style:inset;
-        border-color: rgba(252, 247, 242, 0.534);
-        background: rgb(22, 54, 199);
-        width: 30%;
-        height: 30%;
-        padding: 10px;
-        top : 200px;
-        left : 450px;
-        position: absolute;
-        text-align: start;
-        opacity: 0.79;
-        display: none;
-    }
-    #windoweducationxp {
-        border-width:4px;
-        border-style:inset;
-        border-color: rgba(252, 247, 242, 0.534);
-        background: rgb(22, 54, 199);
-        width: 30%;
-        height: 48%;
-        padding: 10px;
-        top : 180px;
-        left : 450px;
-        position: absolute;
-        text-align: start;
-        opacity: 0.79;
-        display: none;
-    }
-    #windowworkingxp {
-        border-width:4px;
-        border-style:inset;
-        border-color: rgba(252, 247, 242, 0.534);
-        background: rgb(22, 54, 199);
-        width: 30%;
-        height: 25%;
-        padding: 10px;
-        top : 180px;
-        left : 450px;
-        position: absolute;
-        text-align: start;
-        opacity: 0.79;
-        display: none;
-    }
-    #windowhobbies {
-        border-width:4px;
-        border-style:inset;
-        border-color: rgba(252, 247, 242, 0.534);
-        background: rgb(22, 54, 199);
-        width: 30%;
-        height: 25%;
-        padding: 10px;
-        top : 180px;
-        left : 450px;
-        position: absolute;
-        text-align: start;
-        opacity: 0.79;
-        display: none;
+        line-height: 2;
     }
   }
