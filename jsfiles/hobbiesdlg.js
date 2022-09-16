@@ -8,6 +8,7 @@ document.getElementById("dlgbutton").onclick = function() {
         }
         else if (currentdlg == "dlg2") {
                        currentdlg = "dlg3" ;
+                       document.getElementById("windowhobbies").style.display = "block";
                 } 
         else if (currentdlg == "dlg3") {
                         currentdlg = "dlg4";
