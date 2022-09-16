@@ -1,4 +1,5 @@
 @media screen 
+/* for laptops*/
   and (min-width: 768px)
   and (max-width:1064px) { 
     body {
@@ -200,9 +201,9 @@
     }
   }
   @media screen 
+  /* for tablets*/
   and (min-width: 481px)
-  and (max-width: 768px)
-  and (-webkit-min-device-pixel-ratio: 1) { 
+  and (max-width: 768px) { 
     body {
         background-color: rgb(81, 53, 126);
     }
@@ -217,10 +218,10 @@
         justify-content: center;
         align-items: center;
         border-color:black;
-        margin: 100px;
+        margin: 15px;
         width: 800px;
-        height : 500px;
-        padding: 80px;
+        height : 715px;
+        padding: 2px;
         text-align: center;
         background: rgb(255, 255, 255);
         background-image: url(https://supportivy.com/wp-content/uploads/2020/08/pixel-art-landscape-Idees-designs-photo-1140x570.png);
@@ -251,14 +252,15 @@
         border-style:inset;
         border-color: rgb(81, 53, 126);
         margin: auto;
-        width: 25%;
-        height: 30%;
+        width: 35%;
+        height: 25%;
         padding: 10px;
         top : 0;
         left : 0;
         position: absolute;
         background-image: url(https://pbs.twimg.com/media/EuCTjBkVIAE2o3j.jpg);
         background-size: cover;
+        background-position: center;
     }
     #dlgbutton {
         border-left: 15px solid transparent;
@@ -276,8 +278,8 @@
         border-style:inset;
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
-        width: 13%;
-        height: 20%;
+        width: 18%;
+        height: 15%;
         padding: 10px;
         top : 350px;
         left : 0;
@@ -288,7 +290,10 @@
     ul {
         color: aliceblue;
         font-family: Verdana;
-        margin-top: 5px;
+        font-size: 15px;
+        margin: 0px;
+        padding: 7px;
+
 
     }
 
@@ -300,11 +305,11 @@
         border-style:inset;
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
-        width: 30%;
-        height: 35%;
+        width: 50%;
+        height: 25%;
         padding: 10px;
-        top : 200px;
-        left : 450px;
+        top : 35px;
+        right : 2px;
         position: absolute;
         text-align: left;
         opacity: 0.79;
@@ -315,11 +320,11 @@
         border-style:inset;
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
-        width: 30%;
+        width: 50%;
         height: 15%;
         padding: 10px;
-        top : 200px;
-        left : 450px;
+        top : 35px;
+        right : 2px;
         position: absolute;
         text-align: left;
         opacity: 0.79;
@@ -330,13 +335,13 @@
         border-style:inset;
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
-        width: 30%;
+        width: 50%;
         height: 15%;
         padding: 10px;
-        top : 200px;
-        left : 450px;
+        top : 35px;
+        right : 2px;
         position: absolute;
-        text-align: start;
+        text-align: left;
         opacity: 0.79;
         display: none;
     }
@@ -345,13 +350,13 @@
         border-style:inset;
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
-        width: 30%;
-        height: 30%;
+        width: 50%;
+        height: 25%;
         padding: 10px;
-        top : 200px;
-        left : 450px;
+        top : 35px;
+        right : 2px;
         position: absolute;
-        text-align: start;
+        text-align: left;
         opacity: 0.79;
         display: none;
     }
@@ -360,13 +365,13 @@
         border-style:inset;
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
-        width: 30%;
-        height: 48%;
+        width: 50%;
+        height: 40%;
         padding: 10px;
-        top : 180px;
-        left : 450px;
+        top : 35px;
+        right : 2px;
         position: absolute;
-        text-align: start;
+        text-align: left;
         opacity: 0.79;
         display: none;
     }
@@ -375,13 +380,13 @@
         border-style:inset;
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
-        width: 30%;
-        height: 25%;
+        width: 50%;
+        height: 22%;
         padding: 10px;
-        top : 180px;
-        left : 450px;
+        top : 35px;
+        right : 2px;
         position: absolute;
-        text-align: start;
+        text-align: left;
         opacity: 0.79;
         display: none;
     }
@@ -390,18 +395,19 @@
         border-style:inset;
         border-color: rgba(252, 247, 242, 0.534);
         background: rgb(22, 54, 199);
-        width: 30%;
+        width: 50%;
         height: 25%;
         padding: 10px;
-        top : 180px;
-        left : 450px;
+        top : 35px;
+        right : 2px;
         position: absolute;
-        text-align: start;
+        text-align: left;
         opacity: 0.79;
         display: none;
     }
   }
   @media screen 
+  /*for phones*/
   and (min-width: 320px)
   and (max-width: 480px){ 
     body {
@@ -601,6 +607,207 @@
         padding: 10px;
         top : 30px;
         right : 10px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+  }
+  @media screen
+  /*for big screens/laptops*/ 
+  and (min-width:1064px) { 
+    body {
+        background-color: rgb(81, 53, 126);
+    }
+    #game {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #playscreen {
+        border-width:4px;
+        border-style:inset;
+        justify-content: center;
+        align-items: center;
+        border-color:black;
+        margin: 45px;
+        width: 800px;
+        height : 490px;
+        padding: 80px;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        background-image: url(https://supportivy.com/wp-content/uploads/2020/08/pixel-art-landscape-Idees-designs-photo-1140x570.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #dlgbrd {
+        border-width:4px;
+        border-style:inset;
+        justify-content: center;
+        align-items: center;
+        border-color:rgba(252, 247, 242, 0.534);
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+        background: rgb(22, 54, 199);
+        font-family: Verdana;
+        bottom : 0;
+        right : 0;
+        position: absolute;
+        color: aliceblue;
+        opacity: 0.79;
+    }
+    #character {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgb(81, 53, 126);
+        margin: auto;
+        width: 20%;
+        height: 30%;
+        padding: 10px;
+        top : 0;
+        left : 0;
+        position: absolute;
+        background-image: url(https://pbs.twimg.com/media/EuCTjBkVIAE2o3j.jpg);
+        background-size: cover;
+    }
+    #dlgbutton {
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid rgb(241, 241, 238);
+        height: 0; 
+        margin: auto;
+        position: absolute;
+        bottom:0;
+        right:0;
+        width: 0; 
+    }
+    #menu { 
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 13%;
+        height: 20%;
+        padding: 10px;
+        top : 350px;
+        left : 0;
+        position: absolute;
+        text-align: justify;
+        opacity: 0.79;
+    }
+    ul {
+        color: aliceblue;
+        font-family: Verdana;
+        margin-top: 5px;
+
+    }
+
+    a {
+        color: aliceblue;
+    }
+    #windowabout {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 35%;
+        padding: 10px;
+        top : 200px;
+        left : 450px;
+        position: absolute;
+        text-align: left;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowcontact {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 15%;
+        padding: 10px;
+        top : 200px;
+        left : 450px;
+        position: absolute;
+        text-align: left;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowprogskills {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 15%;
+        padding: 10px;
+        top : 200px;
+        left : 450px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowotherskills {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 30%;
+        padding: 10px;
+        top : 200px;
+        left : 450px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windoweducationxp {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 48%;
+        padding: 10px;
+        top : 180px;
+        left : 450px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowworkingxp {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 25%;
+        padding: 10px;
+        top : 180px;
+        left : 450px;
+        position: absolute;
+        text-align: start;
+        opacity: 0.79;
+        display: none;
+    }
+    #windowhobbies {
+        border-width:4px;
+        border-style:inset;
+        border-color: rgba(252, 247, 242, 0.534);
+        background: rgb(22, 54, 199);
+        width: 30%;
+        height: 25%;
+        padding: 10px;
+        top : 180px;
+        left : 450px;
         position: absolute;
         text-align: start;
         opacity: 0.79;
