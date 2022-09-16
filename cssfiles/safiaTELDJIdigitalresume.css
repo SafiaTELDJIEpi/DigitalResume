@@ -150,3 +150,33 @@ a {
     opacity: 0.79;
     display: none;
 }
+#windoweducationxp {
+    border-width:4px;
+    border-style:inset;
+    border-color: rgba(252, 247, 242, 0.534);
+    background: rgb(22, 54, 199);
+    width: 30%;
+    height: 48%;
+    padding: 10px;
+    top : 180px;
+    left : 450px;
+    position: absolute;
+    text-align: start;
+    opacity: 0.79;
+    display: none;
+}
+#windowworkingxp {
+    border-width:4px;
+    border-style:inset;
+    border-color: rgba(252, 247, 242, 0.534);
+    background: rgb(22, 54, 199);
+    width: 30%;
+    height: 25%;
+    padding: 10px;
+    top : 180px;
+    left : 450px;
+    position: absolute;
+    text-align: start;
+    opacity: 0.79;
+    display: none;
+}
