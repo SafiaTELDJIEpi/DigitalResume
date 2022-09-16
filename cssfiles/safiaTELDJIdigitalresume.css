@@ -1,7 +1,6 @@
 @media screen 
   and (min-width: 768px)
-  and (max-width:1064px)
-  and (-webkit-min-device-pixel-ratio: 1) { 
+  and (max-width:1064px) { 
     body {
         background-color: rgb(81, 53, 126);
     }
